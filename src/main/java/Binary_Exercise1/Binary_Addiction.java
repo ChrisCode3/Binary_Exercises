@@ -1,10 +1,20 @@
 package Binary_Exercise1;
 
-import java.util.Arrays;
+
+ /* Take an input of 2 binary numbers and display their sum .
+        You have to do this manually
+
+        Input number1 : 11
+        Input number2 : 11
+
+        integers have a limit of 10 characters
+
+*/
 
 public class Binary_Addiction {
 
 
+// Methods to separate in digit and place it into an array
     public static int[] digitSeparate1(int arr[], int numb1) {
 
         int i = 0;
@@ -13,7 +23,7 @@ public class Binary_Addiction {
 
             arr[i] = numb1 % 10; // store last digit
 
-            System.out.println("arr[ " + i + "] " + arr[i]);
+          //  System.out.println("arr[ " + i + "] " + arr[i]);
             numb1 = numb1 / 10; // chop  out last digit number
 
             i = i + 1;
@@ -31,7 +41,7 @@ public class Binary_Addiction {
 
             arr2[i] = numb2 % 10; // store last digit
 
-            System.out.println("arr[ " + i + "] " + arr2[i]);
+         //   System.out.println("arr[ " + i + "] " + arr2[i]);
             numb2 = numb2 / 10; // chop  out last digit number
 
             i = i + 1;
@@ -39,7 +49,7 @@ public class Binary_Addiction {
         return arr2;
     }
 
-
+// method to add each digit in accordance to the binary rules
     public static void binaryAddition(int arr[], int arr2[]) {
 
         int endResult = 0;
@@ -83,12 +93,12 @@ public class Binary_Addiction {
         }
 
 
-        System.out.println(" The end result in binary is  ");
+        System.out.println("    The end result is :  ");
         System.out.println("           " + endResult);
 
     }
 
-
+// method to ensure that the correct amount of zeros are added into the result
     public static int addZeros(int result, int endResult, int multiplier) {
 
         endResult = (int) (result * Math.pow(10, multiplier) + endResult);
@@ -100,33 +110,22 @@ public class Binary_Addiction {
     public static void main(String[] args) {
 
 
-        /*
+        int numb1 =  1011111111;
 
-Take an input of 2 binary numbers and display their sum .
-You have to to do this manually
-
-Input number1 : 11
-Input number2 : 11
-
-
-int length = String.valueOf(number).length();
-
-         */
-
-        int numb1 = 1011;
-
-        int numb2 = 111;
+        int numb2 = 111111111;
 
         int lengthofnumb1 = String.valueOf(numb1).length();
 
         int lengthofnumb2 = String.valueOf(numb2).length();
 
-        System.out.println(" length " + lengthofnumb1);
+        int sumofLengthNumbers = lengthofnumb1 + lengthofnumb2;
 
 
-        int arr[] = new int[lengthofnumb1 + 4];
-        int arr2[] = new int[lengthofnumb2 + 4];
+ // based on trial and error the sizes of the arrays where we store the numbers has to be the  sum of the lengths of the 2 numbers
+        int arr[] = new int[sumofLengthNumbers];
+        int arr2[] = new int[sumofLengthNumbers];
 
+        System.out.println("If you add numbers " + numb1 +  " and " + numb2 + " in binary" );
 
         binaryAddition(digitSeparate1(arr, numb1), digitSeparate2(arr2, numb2));
 
