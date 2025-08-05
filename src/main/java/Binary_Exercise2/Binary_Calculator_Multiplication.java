@@ -386,7 +386,7 @@ public class Binary_Calculator_Multiplication {
         }
         System.out.println("  "  );
 
-        //  System.out.println("  The binary multiplication of " + firstNumber + " and " +  secondNumber + " is" );
+        //  System.out.println(" The binary multiplication of " + firstNumber + " and " +  secondNumber + " is" );
         System.out.println( "                   " + endResultSingleNumb);
 
 
