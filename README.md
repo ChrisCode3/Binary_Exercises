@@ -38,10 +38,10 @@ java -cp out Binary_Exercise2.Binary_Calculator_Multiplication
 - Example: `101 × 11 = 1111`
 
 ## Screenshots
+![Binary Addition](/docs/Binary_Addiction.PNG)
 
 ![Binary Multiplication](/docs/Binary_Multiplication.PNG)
 
-![Binary Addition](/docs/Binary_Addiction.PNG)
 
 ## Technologies
 
