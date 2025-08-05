@@ -67,6 +67,8 @@ public class Binary_Addiction {
             endResult = addZeros(result, endResult, multiplier);
             multiplier = multiplier + 1;
         }
+
+
         System.out.println("    The end result is :  ");
         System.out.println("           " + endResult);
     }
@@ -87,6 +89,8 @@ public class Binary_Addiction {
  // based on trial and error the sizes of the arrays where we store the numbers has to be the  sum of the lengths of the 2 numbers
         int arr[] = new int[sumofLengthNumbers];
         int arr2[] = new int[sumofLengthNumbers];
+
+        System.out.println("           " );
         System.out.println("If you add numbers " + numb1 +  " and " + numb2 + " in binary" );
 
         binaryAddition(digitSeparate1(arr, numb1), digitSeparate2(arr2, numb2));

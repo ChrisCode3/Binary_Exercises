@@ -51,14 +51,11 @@ public class Binary_Calculator_Multiplication {
         System.out.println("  "  );
 
         for (int y = rowSize - 1; y >= 0; y--) {
-
             if (isTrue) {
                 isTrueCounter = isTrueCounter + 1;
             }
             for (int x = columnSize - rowSize, z = numberforZeros - isTrueCounter ; x >= 0 && z >= 0; x--, z--) {
-
                 isTrue = true;
-
                 multiArr[y][z] = arr[x] * arr2[y]; }
         }
 
@@ -75,16 +72,19 @@ public class Binary_Calculator_Multiplication {
         int endResultSingleNumb = 0;
         int multiplier = 0;
 
-        for (int i = columnSize ; i >= 0; i--) {
+        for (int i = columnSize ; i >= 0; i--) {   // Loop through each column (right to left)
+
             if (!carrOverCondition) {
                 result = 0;
             } else {
                 result = carryOver;
-            } for (int j = 0; j < rowSize; j++)  {
-                result = multiArr[j][i]  + result ;
-                carryOver =   result / 2;
-                carrOverCondition = true;
-                endResult = result % 2;
+
+            }
+            for (int j = 0; j < rowSize; j++)  {   // Loop through each row (each number)
+                result = multiArr[j][i] + result;  // Add bit to result
+                carryOver = result / 2;           // Calculate new carry (1 if 2 or more)
+                carrOverCondition = true;         // Set that we now have a carry possibility
+                endResult = result % 2;           // Whats the resulting bit at this position?
             }
             endResultSingleNumb  = (int) (endResult * Math.pow(10, multiplier) + endResultSingleNumb );
             multiplier = multiplier +1;
