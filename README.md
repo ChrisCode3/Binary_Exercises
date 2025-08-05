@@ -18,7 +18,8 @@ To test and expirement with inquirer and node to create a dymanic readme file de
 
 ## Screenshot
 
-![Screenshot](/starter/images/screenshot1.PNG)
+![Screenshot](/docs/Binary_Addiction.PNG)
+![Screenshot](/docs/Binary_Multiplication.PNG)
 
 Please see below link for a video of the application being run
 
