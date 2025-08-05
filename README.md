@@ -26,7 +26,7 @@ java -cp out Binary_Exercise2.Binary_Calculator_Multiplication
 
 ## Features
 
-## Binary Arithmetic Rules
+#### Binary Arithmetic Rules
 
 | **Addition Rules** | **Multiplication Rules** |
 |-------------------|-------------------------|
