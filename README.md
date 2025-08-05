@@ -26,16 +26,26 @@ java -cp out Binary_Exercise2.Binary_Calculator_Multiplication
 
 ## Features
 
+## Binary Arithmetic Rules
+
+| **Addition Rules** | **Multiplication Rules** |
+|-------------------|-------------------------|
+| `0 + 0 = 0`       | `0 × 0 = 0`            |
+| `0 + 1 = 1`       | `0 × 1 = 0`            |
+| `1 + 0 = 1`       | `1 × 0 = 0`            |
+| `1 + 1 = 0 (carry 1)` | `1 × 1 = 1`        |
+
+
 ### Binary Addition
 - Manual binary addition with proper carry-over handling
 - Processes multi-digit binary numbers
-- Example: `1011111111 + 111111111 = 10011111110`
+- Example: `101111 + 111 = 110110`
 
 ### Binary Multiplication
 - Grid-based multiplication using 2D arrays
 - Interactive user input
 - Visual display of calculation steps
-- Example: `101 × 11 = 1111`
+- Example: `111 × 110 = 101010`
 
 ## Screenshots
 ![Binary Addition](/docs/Binary_Addiction.PNG)
