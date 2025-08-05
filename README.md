@@ -1,12 +1,14 @@
-# Binary Addiction/Multiplication
+# Binary Multiplication / Application
 
-This application created a dynamically generated professional readme file using inquirer for the user to input the details for  the readme
+A collection of Java console applications that perform binary arithmetic operations using custom algorithms and manual computation methods.
 
-for the some reason it looks worse than the first one.
+Binary Multiplication Calculator - Performs binary multiplication using grid-based partial product calculation
+Binary Addition Calculator - Performs binary addition with carry-over logic
+
 
 ## Installation
 
-Please follow the prompts and to answer the questions as truthfully as possible.
+
 
 
 
@@ -18,10 +20,9 @@ To test and expirement with inquirer and node to create a dymanic readme file de
 
 ## Screenshot
 
-![Screenshot](/docs/Binary_Addiction.PNG)
-![Screenshot](/docs/Binary_Multiplication.PNG)
 
-Please see below link for a video of the application being run
+![Screenshot](/docs/Binary_Multiplication.PNG) 
+![Screenshot](/docs/Binary_Addiction.PNG)
 
 
 
