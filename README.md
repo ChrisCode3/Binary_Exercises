@@ -1,14 +1,36 @@
-So in the words of my clever friend Adonai . The hardest exercises you will ever have to do. Once you have done this you will have graduated from being taught programing and you will be able to start learning thing by yourself.
+# Binary Addiction/Multiplication
 
-Essentially the exercies are :
+This application created a dynamically generated professional readme file using inquirer for the user to input the details for  the readme
 
-Binary Exercise 1 
-Do manually binary addition - ie if you do 111 + 111 what does it give us in binary 
-No methods allowed
+for the some reason it looks worse than the first one.
+
+## Installation
+
+Please follow the prompts and to answer the questions as truthfully as possible.
 
 
-Binary Exercise 2
-Do manually binary multiplication  - what would 111 x 111 be 
-The result
 
-Safe to say that it took me quite some times but I managed it in the end
+## Usage
+
+
+To test and expirement with inquirer and node to create a dymanic readme file depending on the needs and requirement of any given project.
+
+
+## Screenshot
+
+![Screenshot](/starter/images/screenshot1.PNG)
+
+Please see below link for a video of the application being run
+
+
+
+## License
+
+Depends on what the user has selected. 
+
+
+## Disclaimer
+For several parts of the code my coding instructing Anthony Silva helped me to streamline the code. 
+
+*The important thing is not to stop questioning*
+
