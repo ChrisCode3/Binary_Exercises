@@ -48,7 +48,7 @@ public class Binary_Calculator_Multiplication {
 
 
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
-        System.out.println("Enter the first number you want to ");
+        System.out.println("Enter the first number you want to");
 
         int numb1 = myObj.nextInt();  // Read user input
 
