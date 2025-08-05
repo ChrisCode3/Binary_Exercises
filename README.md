@@ -8,9 +8,10 @@ Binary Addition Calculator - Performs binary addition with carry-over logic
 
 ## Installation
 
-
-
-
+ ```bash
+   git clone https://github.com/yourusername/Binary_Exercises.git
+   cd Binary_Exercises
+   ```
 
 ## Usage
 
