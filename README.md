@@ -1,14 +1,38 @@
-So in the words of my clever friend Adonai . The hardest exercises you will ever have to do. Once you have done this you will have graduated from being taught programing and you will be able to start learning thing by yourself.
+# Binary Multiplication / Application
 
-Essentially the exercies are :
+A collection of Java console applications that perform binary arithmetic operations using custom algorithms and manual computation methods.
 
-Binary Exercise 1 
-Do manually binary addition - ie if you do 111 + 111 what does it give us in binary 
-No methods allowed
+Binary Multiplication Calculator - Performs binary multiplication using grid-based partial product calculation
+Binary Addition Calculator - Performs binary addition with carry-over logic
 
 
-Binary Exercise 2
-Do manually binary multiplication  - what would 111 x 111 be 
-The result
+## Installation
 
-Safe to say that it took me quite some times but I managed it in the end
+
+
+
+
+## Usage
+
+
+To test and expirement with inquirer and node to create a dymanic readme file depending on the needs and requirement of any given project.
+
+
+## Screenshot
+
+
+![Screenshot](/docs/Binary_Multiplication.PNG) 
+![Screenshot](/docs/Binary_Addiction.PNG)
+
+
+
+## License
+
+Depends on what the user has selected. 
+
+
+## Disclaimer
+For several parts of the code my coding instructing Anthony Silva helped me to streamline the code. 
+
+*The important thing is not to stop questioning*
+
